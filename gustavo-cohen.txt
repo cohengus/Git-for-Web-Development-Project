@@ -1,0 +1,149 @@
+https://codepen.io/gusco/pen/rNVvyNR
+
+1. What is Semantic HTML? 
+Semantic HTML means using html tags that are named for a specific purpose
+
+2. What is HTML used for?
+HTML is used to create the structure/content of a web page or web app
+
+3. What is an attribute and where do we put it?
+An attribute is a special words used inside tags to control certain behaviors
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+An h1 tag is is used to create the main headline of a page. It should be use only once to highlight the most important title that describes the content
+
+5. Name two tags that have required attributes
+<img> requires src and <a> requires href
+
+6. What do we put in the head of our HTML document?
+It holds the document's metadata
+
+7. What is an id?
+An ID is an html attribute with a unique name
+
+8. What elements can I add an id to?
+Any HTML element that must be named with a unique name
+
+9. How many times can I use the same id on a page?
+Once
+
+10. What is a class? 
+A class is an HTML attribute that allows naming an HTML tag with an extra naming criteria
+
+11. What elements can I add a class to?
+Any HTML element that needs an extra naming definition/criteria
+
+12. How many times can I use the same class on a page?
+Many
+
+13. How do I get my link to open in a new tab?
+target="_blank"
+
+14. What is the alt attribute used for?
+The alt attribute allows for an alternate descriptive text
+
+15. How do I reference an id?
+Using '#'
+
+16. What is the difference between a section and a div
+They both do the same thing but section has a more semantic use while div is generic
+
+17. What is CSS used for?
+To style Markup Content
+
+18. How do we select an element? Example - every h2 on the page
+H2 {}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A Class is an attribute that can hold specific styling and could be applied to several tags. An ID is given to a single tag and while it also contains specific styling it can only be applied to one element only in a page.
+
+Example: If I want to style only odd list items with one specific style, I could use an 'odd' class regardless how many list items the UL or OL contains. An ID can be a unique section inside the page that requires to be targeted specifically via a unique name
+
+20. How do we select classes in CSS?
+Using a period '.class'
+
+21. How do we select a p element with a single class of “human””?
+p.human or simply .human
+
+22. What is a parent child selector? When would this be useful?
+A parent child selector allows for greater specificity when selecting elements in a page
+
+23. How do you select all links within a div with the class of sidebar?
+.sidebar a
+
+24. What is a pseudo selector?
+A pseudo selector helps select elements or states that regular selectors can't specify
+
+25. What do we use the change the spacing between lines?
+Line-height
+
+26. What do we use to change the spacing between letters?
+Letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Text-transform
+
+28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted #000;
+
+29. How do I select everything on the page?
+*
+
+30. How do I write a comment in CSS?
+/* Comment */
+
+31. How do I find out what file I am in, when I am using the command line?
+Pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+Rm (filename) - It removes the file immediately without warning
+
+34. Why should I use version control?
+It allows to have a more organized way of coding. Specially when doing work in teams
+
+35. How often should I commit to github?
+As often as possible
+
+36. What is the command we would use to push our repo up to github?
+Git push origin [destination]
+
+37. Walk me through Lambda's git flow.
+1. Fork repo
+2. Clone
+3. Branch
+4. Push
+5. Submit Pull Request
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+An inline element only uses the space it needs and it doesn't add a line break while the block element occupies the entire width and creates a line break
+
+2. What happens when an element is positioned absolutely?
+It can be positioned relative to an element that has a relative position instead of a position relative to the document
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+By converting it to a block element
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+Block elements:
+<form>
+<div>
+<footer>
+
+Inline elements:
+<a>
+<button>
+<image>
+
+Inline-block elements:
+<input>
+
+5. In your own words, explain the box model. What is the fix for the box model?
+The box model uses the dimensions of the element as the base for its size and adds the margin and border as part of it's final dimension
+
+box-sizing: border-box;
